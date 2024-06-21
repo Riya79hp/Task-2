@@ -1,0 +1,547 @@
+
+
+.navbardiv{
+  display:flex;
+  width:100%;
+  height:50px;
+  background-color: #5C5D67;
+  justify-content: space-around;
+  gap:200px;
+  padding: 15px;
+  position: sticky;
+  overflow: hidden;
+  top: 0;
+  z-index: 1000;
+  transition: 0.7s;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+.navbar-written{
+text-decoration: none;
+color:whitesmoke;
+font-size: 17px;
+padding: 10px;
+border-top: 2px solid whitesmoke;
+border-bottom:2px solid whitesmoke;
+transition: 0.7s;
+
+}
+
+
+.navbar-written:hover{
+  color:#5C5D67;
+  border-radius: 20px;
+
+  box-shadow: 0px 3px 10px 0px  whitesmoke ;
+
+  background-color: whitesmoke;
+  transform: translateY(-6px);
+
+}
+.post-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.post-form {
+  width: 100%;
+  max-width: 500px;
+  margin-bottom: 20px;
+}
+
+.post-textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.post-button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.post-button:hover {
+  background-color: #0056b3;
+}
+
+.post-list {
+  margin-top: 20px;
+}
+
+.post-item {
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 10px;
+  width:700px;
+  margin-bottom: 20px;
+  background-color: #f9f9f9;
+}
+
+.post-username {
+  background-color: #f5f5d6;
+  color: green;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.post-content {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.post-likecount {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.post-comment-section {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.post-comment-input {
+  flex-grow: 1;
+  padding: 8px;
+  margin-right: 10px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+}
+
+.post-comment-button {
+  padding: 8px 12px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.post-comments {
+  margin-top: 10px;
+}
+
+.post-comment-item {
+  background-color: #e0f7fa;
+  padding: 10px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.comment-username {
+  font-weight: bold;
+  color: brown;
+  background-color: mistyrose;
+  margin-bottom: 5px;
+}
+
+.comment-content {
+  margin: 0;
+  font-size: 16px;
+}
+
+
+.signup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f0f2f5;
+  padding: 20px;
+}
+
+.signup-form {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+}
+
+.signup-heading {
+  text-align: center;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+.signup-label {
+  display: block;
+  margin-bottom: 8px;
+  color: #666;
+}
+
+.signup-input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.signup-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.signup-button:hover {
+  background-color: #0056b3;
+}
+
+
+
+
+
+
+.signup-link {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.my-acc-post-card {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 15px;
+  padding: 15px;
+  transition: box-shadow 0.3s ease;
+}
+
+.my-acc-post-card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.my-acc-post-card-body {
+  padding: 10px;
+}
+
+.my-acc-post-card-title {
+  font-size: 18px;
+  margin: 0;
+}
+
+.my-acc-username-div,
+.my-acc-liked-posts-header,
+.my-acc-your-posts-header,
+.my-acc-login-container,
+.my-acc-signup-link {
+  margin-bottom: 20px;
+}
+
+.my-acc-add-button {
+  background-color: transparent;
+  border: none;
+  color: blue;
+  cursor: pointer;
+  text-align: center;
+}
+
+.my-acc-add-button:hover {
+  text-decoration: underline;
+}
+
+.my-acc-login-container {
+  display: flex;
+  justify-content: center;
+  min-height: 500px;
+  background-color: #f0f2f5;
+  padding: 20px;
+}
+
+.my-acc-login-box {
+  max-width: 400px;
+  width: 100%;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+}
+
+.my-acc-login-heading {
+  text-align: center;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.my-acc-login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.my-acc-login-label {
+  margin-bottom: 10px;
+  color: #666;
+}
+
+.my-acc-login-input {
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.my-acc-login-button {
+  padding: 12px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.my-acc-login-button:hover {
+  background-color: #0056b3;
+}
+
+.my-acc-signup-link {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.my-acc-signup-link span {
+  color: #666;
+}
+
+.my-acc-signup-link a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.my-acc-signup-link a:hover {
+  text-decoration: underline;
+  color: #0056b3;
+}
+.forgot-password-link {
+  color: blue;
+  background: none;
+  border: none;
+  padding: 0;
+  font-size: inherit;
+  cursor: pointer;
+}
+
+.forgot-password-link:hover {
+  text-decoration: underline;
+}
+/* Assuming these are the class names used in your component */
+.my-acc-liked-posts-header,
+.my-acc-your-posts-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.my-acc-liked-posts-title,
+.my-acc-your-posts-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+}
+
+.my-acc-add-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.my-acc-add-button:hover {
+  background-color: #0056b3;
+}
+
+.my-acc-post-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.my-acc-post-card {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.my-acc-post-card-title {
+  margin: 0;
+  font-size: 18px;
+  color: #333;
+}
+
+.my-acc-login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.my-acc-login-box {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 8px;
+  width: 300px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.my-acc-login-heading {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 24px;
+  text-align: center;
+}
+
+.my-acc-login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.my-acc-login-label {
+  margin-bottom: 6px;
+  font-size: 16px;
+}
+
+.my-acc-login-input {
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.my-acc-login-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.my-acc-login-button:hover {
+  background-color: #0056b3;
+}
+
+.forgot-password-link {
+  color: #007bff;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  font-size: 14px;
+  margin-bottom: 10px;
+  text-decoration: underline;
+}
+
+.forgot-password-link:hover {
+  text-decoration: none;
+}
+
+.my-acc-signup-link {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.my-acc-signup-link span {
+  color: #333;
+}
+
+.my-acc-signup-link a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+  margin-left: 5px;
+}
+
+.my-acc-signup-link a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 800px) {
+  .post-container {
+    padding: 10px;
+  }
+
+  .post-textarea {
+    height: 80px;
+  }
+
+  .post-button {
+    padding: 8px 16px;
+  }
+
+  .post-item {
+    padding: 20px;
+    width:100%;
+  }
+
+  .post-username {
+    font-size: 18px;
+  }
+
+  .post-content {
+    font-size: 16px;
+  }
+
+  .post-likecount {
+    font-size: 14px;
+  }
+
+  
+
+  .post-comment-input {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .post-comment-button {
+    width: 100%;
+    text-align: center;
+  }
+
+  .post-comment-item {
+    padding: 8px;
+  }
+.navbardiv{
+  width:100%;
+  gap:20px;
+}
+  .comment-content {
+    font-size: 14px;
+  }
+}
